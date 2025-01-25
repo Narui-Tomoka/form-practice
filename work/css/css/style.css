@@ -1,1 +1,11 @@
 @charset "UTF-8";
+
+.wrapper {
+  width: 100%;
+  background: #cff1ff;
+}
+
+.inner {
+  width: 600px;
+  margin: 0 auto;
+}
