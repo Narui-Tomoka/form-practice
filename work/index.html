@@ -14,14 +14,15 @@
       <div class="inner">
         <h1 class="page__title">フォーム作成</h1>
         <div class="form__wrap">
-          <form action>
+          <form action="">
             <h2 class="form__title">アカウント作成</h2>
             <div class="personal__content">
               <h3 class="content__title">個人情報</h3>
               <div class="label__section">
                 <label class="label__text" for="family__name"
-                  >名字<span class="required">※</span></label
-                >
+                  >名字
+                  <span class="required">※</span>
+                </label>
                 <input
                   class="input__area"
                   id="family__name"
@@ -33,8 +34,9 @@
               </div>
               <div class="label__section">
                 <label class="label__text" for="given__name"
-                  >名前<span class="required">※</span></label
-                >
+                  >名前
+                  <span class="required">※</span>
+                </label>
                 <input
                   class="input__area"
                   id="given__name"
@@ -46,8 +48,9 @@
               </div>
               <div class="label__section">
                 <label class="label__text"
-                  >生年月日<span class="required">※</span></label
-                >
+                  >生年月日
+                  <span class="required">※</span>
+                </label>
                 <div class="select__area is__flex">
                   <div class="select__unit">
                     <select class="input__area" name="year">
@@ -100,7 +103,10 @@
                 </div>
               </div>
               <div class="label__section">
-                <p class="label__text">性別<span class="required">※</span></p>
+                <p class="label__text">
+                  性別
+                  <span class="required">※</span>
+                </p>
                 <div class="gender__area">
                   <label class="gender__element">
                     <input
@@ -108,7 +114,8 @@
                       type="radio"
                       name="gender"
                       value="man"
-                    /><span>男性</span>
+                    />
+                    <span>男性</span>
                   </label>
                   <label class="gender__element">
                     <input
@@ -116,7 +123,8 @@
                       type="radio"
                       name="gender"
                       value="woman"
-                    /><span>女性</span>
+                    />
+                    <span>女性</span>
                   </label>
                   <label class="gender__element">
                     <input
@@ -124,7 +132,8 @@
                       type="radio"
                       name="gender"
                       value="other"
-                    /><span>その他</span>
+                    />
+                    <span>その他</span>
                   </label>
                 </div>
               </div>
@@ -145,12 +154,13 @@
                 </div>
               </div>
             </div>
-            <div class="account__conent">
+            <div class="account__content">
               <h3 class="content__title">アカウント情報</h3>
               <div class="label__section">
                 <label class="label__text" for="account__name"
-                  >アカウント名<span class="required">※</span></label
-                >
+                  >アカウント名
+                  <span class="required">※</span>
+                </label>
                 <input
                   class="input__area"
                   id="account__name"
@@ -160,14 +170,16 @@
               </div>
               <div class="label__section">
                 <label class="label__text" for="email"
-                  >メールアドレス<span class="required">※</span></label
-                >
+                  >メールアドレス
+                  <span class="required">※</span>
+                </label>
                 <input class="input__area" id="email" type="email" required />
               </div>
               <div class="label__section">
                 <label class="label__text" for="password"
-                  >パスワード<span class="required">※</span></label
-                >
+                  >パスワード
+                  <span class="required">※</span>
+                </label>
                 <input
                   class="input__area"
                   id="password"
@@ -177,8 +189,9 @@
               </div>
               <div class="label__section">
                 <label class="label__text" for="duplication__password"
-                  >確認用パスワード<span class="required">※</span></label
-                >
+                  >確認用パスワード
+                  <span class="required">※</span>
+                </label>
                 <input
                   class="input__area"
                   id="duplication__password"
@@ -188,17 +201,19 @@
               </div>
             </div>
             <div class="contact__content">
-              <h3 class="coutent__title">連絡先</h3>
+              <h3 class="content__title">連絡先</h3>
               <div class="label__section">
                 <label class="label__text" for="address"
-                  >住所<span class="required">※</span></label
-                >
+                  >住所
+                  <span class="required">※</span>
+                </label>
                 <input class="input__area" id="address" type="text" required />
               </div>
               <div class="label__section">
                 <label class="label__text" for="tel"
-                  >電話番号<span class="required">※</span></label
-                >
+                  >電話番号
+                  <span class="required">※</span>
+                </label>
                 <input
                   class="input__area"
                   id="tel"
@@ -217,7 +232,9 @@
                   value="email-magazine"
                   id="email__magazine"
                 />
-                <label class="label__text" for="email__magazine"
+                <label
+                  class="label__text subscription__label"
+                  for="email__magazine"
                   >メールマガジン</label
                 >
               </div>
